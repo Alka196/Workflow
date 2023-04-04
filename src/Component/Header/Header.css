@@ -1,0 +1,45 @@
+
+nav{
+
+    width:1500px;    
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(12, 117, 117);   
+    border-bottom: 1px solid  rgb(6, 59, 59);
+    border-left: 1px solid  rgb(6, 59, 59);
+    border-right: 1px solid  rgb(6, 59, 59);
+    border-radius: 30px;
+
+    
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: end;
+    justify-content: space-between;
+    border-radius: 10px white;
+    padding-left: 70px;
+    padding-top: 20px;
+
+}
+
+
+
+#btns{
+    padding-left: 10px;
+    align-items: end;
+    
+    
+}
+#btns > button{
+    padding: 10px;    
+    border-radius: 15px ; 
+    color: white;
+  
+    
+
+}
+
+button:hover{
+    background-color: rgb(27, 121, 121);
+}
